@@ -311,17 +311,18 @@ int main() {
 
 Program C++ di atas adalah program sederhana untuk memfasilitasi pembelian laptop. Program menggunakan struktur data map untuk menyimpan pilihan laptop beserta nama dan harganya. Pengguna diminta memilih nomor laptop dari pilihan yang ditampilkan, dan program kemudian memeriksa kevalidan pilihan. Jika nomor laptop valid, program memberikan informasi tentang laptop yang dibeli, termasuk nama laptop dan harganya dalam mata uang Rupiah. Jika nomor laptop tidak valid, program memberikan pesan kesalahan. Program tersebut dirancang untuk memberikan pengalaman pengguna yang interaktif dalam memilih dan membeli laptop dari opsi yang telah ditentukan.
 
-1.  Fungsi Map :
+1. Fungsi Map :
     -map adalah struktur data di C++ yang menyimpan data dalam bentuk pasangan kunci-nilai.
     -Fungsi map memungkinkan penyimpanan dan pengaksesan data dengan efisiensi tinggi berdasarkan kunci.
 
-2. Perbedaan antara Array dan Map :
-Array :
+
+Perbedaan antara Array dan Map :
+1. Array :
     - Memiliki indeks berurutan (integer) untuk mengakses elemen.
     - Ukuran array tetap dan harus ditentukan pada saat deklarasi.
     - Hanya dapat menggunakan indeks sebagai kunci.
 
-Map :
+1. Map :
     - Memiliki kunci yang dapat berupa tipe data kompleks atau bukan hanya indeks integer.
     - Ukuran map dapat berubah secara dinamis saat data ditambahkan atau dihapus.
     - Menyimpan data dalam pasangan kunci-nilai, yang memungkinkan pencarian dan pengubahan data dengan efisien.
