@@ -6,31 +6,31 @@
 Tipe data adalah suatu memori atau media pada komputer yang digunakan untuk menampung informasi atau data sementara. Tipe data berfungsi untuk mempermudah dalam mengelola dan mengolah data yang akan digunakan dalam program. Setiap tipe data memiliki karakteristik dan fungsi yang berbeda, yang mempermudah dalam mengelola data yang sesuai dengan kebutuhan program.
 Berikut ini adalah macam-macam tipe data beserta penjelasannya yang terdapat pada C++ :
 
-1.	Tipe data primitif <br/>
+1. Tipe data primitif<br/>
 Tipe data primitif adalah tipe data bawaan bahasa pemrograman dan bisa langsung digunakan programmer untuk mendeklarasikan variabel. 
 Dalam C++, terdapat beberapa tipe data yang termasuk tipe data primitif, yaitu:
-    -Int
-    -Float
-    -Double
-    -Boolean
-    -Char
-    -Void
+    - Int
+    - Float
+    - Double
+    - Boolean
+    - Char
+    - Void
 
-2.	Tipe Data Abstrak<br/>
+2. Tipe Data Abstrak<br/>
 Tipe data abstrak adalah tipe data yang berisi nilai yang tidak dapat langsung ditentukan. Ini termasuk jenis data seperti array, object, dan class. Tipe data abstrak hanya menyediakan informasi mengenai jenis data, namun tidak menyediakan informasi mengenai nilai data.
 Berikut adalah contoh tipe data abstrak :
-    -Array
-    -Object
-    -Class
+    - Array
+    - Object
+    - Class
 
-3.	Tipe Data Koleksi<br/>
+3. Tipe Data Koleksi<br/>
 Tipe data koleksi adalah tipe data yang berisi kumpulan data yang dapat diakses secara berurutan. Ini termasuk jenis data seperti array, linked list, stack, queue, dan hash table. Tipe data koleksi memiliki sifat mutable, yang berarti nilainya dapat diubah setelah ditetapkan. 
 Berikut contoh tipe data koleksi adalah :
-    -Array
-    -Linked list
-    -Stack
-    -Queue
-    -Hash table.
+    - Array
+    - Linked list
+    - Stack
+    - Queue
+    - Hash table.
 
 ## Guided 
 
@@ -116,7 +116,7 @@ return 0;
 ```
 Kode yang disebutkan di atas digunakan untuk mencetak isi struct. Salah satu contoh tipe data abstrak adalah struktur. Struktur mahasiswa ada dalam kode di atas. Struktur siswa ini memiliki tiga nilai: char nama berukuran 50, char address berukuran 50, dan int usia. Kemudian, nilai diisi pada int main, dan struktur siswa dideklarasikan dengan dua objek: mhs1 bernama Dian dan mhs2 bernama Bambang.
 
-### 3. Tipe Data Abstrak
+### 3. Tipe Data Koleksi
 
 ```C++
 #include <iostream>
