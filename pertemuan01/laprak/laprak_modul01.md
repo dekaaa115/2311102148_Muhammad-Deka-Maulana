@@ -34,7 +34,7 @@ Berikut contoh tipe data koleksi adalah :
 
 ## Guided 
 
-### 1. [Tipe Data Primitif]
+### 1. Tipe Data Primitif
 
 ```C++
 #include <iostream>
@@ -78,7 +78,7 @@ return 0;
 ```
 Kode di atas di gunakan untuk memilih operasi penambahan (+), pengurangan (-), perkalian (*), dan pembagian (/) dapat dipilih dengan menggunakan kode di atas. Jika pengguna sudah menginput dua angka saat penginputan cin, keempat operasi ini akan berjalan. Program ini juga memiliki dua tipe data dasar: char dan float. Char digunakan saat memilih switch case, dan float digunakan sebagai tipe data untuk dua angka yang diinput pengguna.
 
-### 2. [Tipe Data Abstrak]
+### 2. Tipe Data Abstrak
 
 ```C++
 #include <stdio.h>
@@ -115,7 +115,8 @@ return 0;
 }
 ```
 Kode yang disebutkan di atas digunakan untuk mencetak isi struct. Salah satu contoh tipe data abstrak adalah struktur. Struktur mahasiswa ada dalam kode di atas. Struktur siswa ini memiliki tiga nilai: char nama berukuran 50, char address berukuran 50, dan int usia. Kemudian, nilai diisi pada int main, dan struktur siswa dideklarasikan dengan dua objek: mhs1 bernama Dian dan mhs2 bernama Bambang.
-### 3. [Tipe Data Abstrak]
+
+### 3. Tipe Data Abstrak
 
 ```C++
 #include <iostream>
@@ -143,9 +144,13 @@ Kode di atas mencetak isi dari sebuah array, yang merupakan salah satu contoh ti
 
 ## Unguided 
 
-### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
+### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
 ```C++
+/*
+oleh Muhammad Deka Maulana - 2311102148
+*/
+
 #include <iostream>
 
 // library untuk fungsi matematika
@@ -185,7 +190,145 @@ int main() {
 Kode di atas meminta pengguna untuk memasukkan nilai jari-jari lingkaran. Setelah pengguna memberikan input, program menghitung luas lingkaran menggunakan rumus \( \pi r^2 \) dengan nilai pi sebesar 3.14159, dan kemudian menampilkan hasilnya. Hasil output program adalah kalimat yang memberitahu pengguna luas lingkaran dengan jari-jari yang telah dimasukkan. Sebagai contoh, jika pengguna memasukkan jari-jari 148, program akan menampilkan pesan: "Luas lingkaran dengan jari-jari 148 adalah: 68813.4." Pesan ini memberikan informasi yang jelas kepada pengguna tentang hasil perhitungan luas lingkaran berdasarkan input yang diberikan.
 
 ## Kesimpulan Tipe Data Primitif<br/>
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem. Ini tersedia dalam banyak bahasa pemrograman dan merupakan komponen dasar untuk menyimpan nilai sederhana.
+
+### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!
+
+```C++
+/*
+oleh Muhammad Deka Maulana - 2311102148
+*/
+
+// contoh program class dan struct
+#include <iostream>
+#include <string>
+using namespace std;
+
+// class untuk laptop asus
+class LaptopAsus_148 {
+public:
+    // data laptop
+    string model;
+    int ram;
+    double ukuranLayar;
+
+    // metode laptop
+    void display() {
+        cout << "Laptop Asus - Model : " << model << ", RAM : " << ram << "GB, Ukuran Layar : " << ukuranLayar << " inc" << endl;
+    }
+};
+
+// struct untuk laptop lenovo
+struct LaptopLenovo_148 {
+    // data laptop
+    string model;
+    int ram;
+    double ukuranLayar;
+
+    // metode laptop
+    void display() {
+        cout << "Laptop Asus - Model : " << model << ", RAM : " << ram << "GB, Ukuran Layar : " << ukuranLayar << " inc" << endl;
+    }
+};
+
+int main() {
+    // membuat objek dari class LaptopAsus_148
+    LaptopAsus_148 asus;
+    asus.model = "ROG Strix G15";
+    asus.ram = 16;
+    asus.ukuranLayar = 15.6;
+    asus.display();
+
+    // Membuat objek dari struct LaptopLenovo_148
+    LaptopLenovo_148 lenovo;
+    lenovo.model = "IdeaPad 5";
+    lenovo.ram = 8;
+    lenovo.ukuranLayar = 14.0;
+    lenovo.display();
+
+    return 0;
+}
+```
+#### Output:
+![Screenshot Output Unguided 2](Output_Unguided-2_Deka.png)
+
+Program ini merupakan contoh implementasi bahasa pemrograman C++, di mana dua struktur data, yaitu `class` dan `struct`, digunakan untuk merepresentasikan informasi tentang laptop dari merek Asus dan Lenovo. Melalui pembuatan objek dari keduanya, program mengilustrasikan cara mengorganisir data seperti model, ukuran RAM, dan ukuran layar dalam suatu entitas yang dapat memiliki metode anggota untuk menampilkan informasi terkait. Dengan demikian, program ini membantu dalam memahami konsep dasar penggunaan `class` dan `struct` untuk menyusun dan mengelola data terstruktur, sesuai dengan prinsip-prinsip dasar pemrograman berorientasi objek.
+A. Fungsi dari Class<br/>
+class adalah tipe data yang dapat menggabungkan data (variabel) dan fungsi (metode) dalam satu entitas. Secara default, anggota class bersifat private, artinya hanya dapat diakses dari dalam class tersebut. Namun, dapat diubah menjadi public atau protected.
+B. Fungsi dari Struct<br/>
+juga digunakan untuk menggabungkan data dan fungsi, tetapi secara default semua anggota bersifat public. Oleh karena itu, semua anggota dapat diakses dari luar struct tanpa perlu hak akses tambahan.
+
+### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
+
+```C++
+/*
+oleh Muhammad Deka Maulana - 2311102148
+*/
+
+// contoh program fungsi map
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+int main() {
+    cout << "---Selamat datang di Deka Laptop---" << endl;
+
+    // deklarasi map dan pilihan laptop
+    map<int, pair<string, double>> pilihanLaptop_148 = {
+        {1, {"Asus", 1500.0}},
+        {2, {"Lenovo", 1200.0}},
+        {3, {"Acer", 1000.0}},
+        {4, {"ThinkPad", 2000.0}},
+        {5, {"Axioo", 800.0}}
+    };
+
+    // menampilkan pilihan laptop
+    cout << "Pilihan Laptop :" << endl;
+    for (const auto& entry : pilihanLaptop_148) {
+        cout << entry.first << ". " << entry.second.first << endl;
+    }
+
+    // input pilihan
+    int pilihan;
+    cout << "Masukkan nomor laptop yang ingin Anda beli (1-5): ";
+    cin >> pilihan;
+
+    // memeriksa dan menampilkan hasil
+    auto it = pilihanLaptop_148.find(pilihan);
+    if (it != pilihanLaptop_148.end()) {
+        cout << "Anda telah memilih untuk membeli laptop " << it->second.first << " seharga Rp" << it->second.second << ". Terima kasih!" << endl;
+    } else {
+        cout << "Pilihan tidak valid. Silakan masukkan nomor laptop yang benar." << endl;
+    }
+
+    return 0;
+}
+```
+
+#### Output:
+![Screenshot Output Unguided 3](Output_Unguided-3_Deka.png)
+
+Program C++ di atas adalah program sederhana untuk memfasilitasi pembelian laptop. Program menggunakan struktur data map untuk menyimpan pilihan laptop beserta nama dan harganya. Pengguna diminta memilih nomor laptop dari pilihan yang ditampilkan, dan program kemudian memeriksa kevalidan pilihan. Jika nomor laptop valid, program memberikan informasi tentang laptop yang dibeli, termasuk nama laptop dan harganya dalam mata uang Rupiah. Jika nomor laptop tidak valid, program memberikan pesan kesalahan. Program tersebut dirancang untuk memberikan pengalaman pengguna yang interaktif dalam memilih dan membeli laptop dari opsi yang telah ditentukan.
+
+1.  Fungsi Map :
+    -map adalah struktur data di C++ yang menyimpan data dalam bentuk pasangan kunci-nilai.
+    -Fungsi map memungkinkan penyimpanan dan pengaksesan data dengan efisiensi tinggi berdasarkan kunci.
+
+2. Perbedaan antara Array dan Map :
+Array :
+    - Memiliki indeks berurutan (integer) untuk mengakses elemen.
+    - Ukuran array tetap dan harus ditentukan pada saat deklarasi.
+    - Hanya dapat menggunakan indeks sebagai kunci.
+
+Map :
+    - Memiliki kunci yang dapat berupa tipe data kompleks atau bukan hanya indeks integer.
+    - Ukuran map dapat berubah secara dinamis saat data ditambahkan atau dihapus.
+    - Menyimpan data dalam pasangan kunci-nilai, yang memungkinkan pencarian dan pengubahan data dengan efisien.
+
+## Kesimpulan
+Memahami tipe data C++ dengan baik membantu programmer menulis program yang lebih efisien, akurat, dan mudah dibaca. Ini karena tipe data menentukan jenis nilai yang dapat disimpan variabel dan operasi yang dapat dilakukan pada nilai tersebut.
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] 7+ Tipe Data C++ Berserta Contoh Program dan Jangkauannya By Damas Amirul Karim
+[2] Khoirudin, Algoritma & Struktur Data dengan Python 3. Semarang: Universitas Semarang Press, 2019.
