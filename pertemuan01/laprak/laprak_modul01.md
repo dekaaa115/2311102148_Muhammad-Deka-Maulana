@@ -253,10 +253,10 @@ int main() {
 ![Screenshot Output Unguided 2](Output_Unguided-2_Deka.png)
 
 Program ini merupakan contoh implementasi bahasa pemrograman C++, di mana dua struktur data, yaitu `class` dan `struct`, digunakan untuk merepresentasikan informasi tentang laptop dari merek Asus dan Lenovo. Melalui pembuatan objek dari keduanya, program mengilustrasikan cara mengorganisir data seperti model, ukuran RAM, dan ukuran layar dalam suatu entitas yang dapat memiliki metode anggota untuk menampilkan informasi terkait. Dengan demikian, program ini membantu dalam memahami konsep dasar penggunaan `class` dan `struct` untuk menyusun dan mengelola data terstruktur, sesuai dengan prinsip-prinsip dasar pemrograman berorientasi objek.
-A. Fungsi dari Class<br/>
-class adalah tipe data yang dapat menggabungkan data (variabel) dan fungsi (metode) dalam satu entitas. Secara default, anggota class bersifat private, artinya hanya dapat diakses dari dalam class tersebut. Namun, dapat diubah menjadi public atau protected.
-B. Fungsi dari Struct<br/>
-juga digunakan untuk menggabungkan data dan fungsi, tetapi secara default semua anggota bersifat public. Oleh karena itu, semua anggota dapat diakses dari luar struct tanpa perlu hak akses tambahan.
+    A. Fungsi dari Class<br/>
+       class adalah tipe data yang dapat menggabungkan data (variabel) dan fungsi (metode) dalam satu entitas. Secara default, anggota class bersifat private, artinya hanya dapat diakses dari dalam class tersebut. Namun, dapat diubah menjadi public atau protected.
+    B. Fungsi dari Struct<br/>
+       juga digunakan untuk menggabungkan data dan fungsi, tetapi secara default semua anggota bersifat public. Oleh karena itu, semua anggota dapat diakses dari luar struct tanpa perlu hak akses tambahan.
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
 
