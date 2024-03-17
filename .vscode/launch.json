@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/2311102148_Muhammad-Deka-Maulana/Pertemuan02-Array",
-      "program": "e:/2311102148_Muhammad-Deka-Maulana/Pertemuan02-Array/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
