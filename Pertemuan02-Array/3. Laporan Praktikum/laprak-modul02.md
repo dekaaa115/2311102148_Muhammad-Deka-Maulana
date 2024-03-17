@@ -11,9 +11,10 @@
 #include <iostream>
 using namespace std;
 
-// Program input array 3 dimensi
+// PROGRAM INPUT ARRAY 3 DIMENSI
 int main()
 {
+
     // Deklarasi array
     int arr[2][3][3];
 
@@ -119,4 +120,3 @@ int main()
 ## Kesimpulan
 
 ## Referensi
-[1]
