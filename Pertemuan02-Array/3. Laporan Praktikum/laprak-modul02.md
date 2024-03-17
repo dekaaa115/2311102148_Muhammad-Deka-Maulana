@@ -97,7 +97,7 @@ int main()
 ## Unguided 
 
 ### 1. Buatlah program untuk menampilkan output seperti berikut dengan data yang diinputkan oleh user!
-![Screenshot Soal Unguided 1](SoalUnguided1.png)
+![Screenshot Soal Unguided 1](soalunguided1.jpg)
 ```C++
 
 ```
