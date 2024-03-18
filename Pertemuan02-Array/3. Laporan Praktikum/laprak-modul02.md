@@ -4,22 +4,20 @@
 ## Dasar Teori
 Array merupakan kumpulan data dengan tipe data yang sama. Dalam bahasa C atau C++ Array dapat berdimensi 1, 2 atau berdimensi banyak.Penggunaan Array bertujuan untuk efektivitas dan efisiensi dalam penggunaan variabel dan memori sesuai dengan banyak data yang diperlukan. untuk inisialisasi data dalam array dapat kita lakukan secara literal ataupun dinamis sesuai dengan input yang diinginkan user. Dengan array, kita dapat menentukan banyaknya indeks yang diperlukan. Perlu diingat, dalam bahasa C ataupun C++ indeks sebuah array selalu di mulai dari indeks ke-0.  Berikut jenis-jenis tipe data array yang umum diketahui ada 3, yaitu :
 1. Array Satu Dimensi<br/>
-Array satu dimensi adalah sebuah daftar yang memuat beberapa variabel berelasi. Array satu dimensi biasa digunakan dalam mengurutkan bilangan.
-Contoh :
-- Array integer dengan jumlah elemen 5 : int arr1[5];
-- Array float dengan jumlah elemen 3 : float arr2[3];
-- Array character dengan jumlah elemen 7 : char arr3[7];
+Array satu dimensi adalah sebuah daftar yang memuat beberapa variabel berelasi. Array satu dimensi biasa digunakan dalam mengurutkan bilangan. Contoh :
+    - Array integer dengan jumlah elemen 5 : int arr1[5];
+    - Array float dengan jumlah elemen 3 : float arr2[3];
+    - Array character dengan jumlah elemen 7 : char arr3[7];
 2. Array Dua Dimensi<br/>
 Array dua dimensi adalah sebuah array dimana tersusun atas 2 indeks yang menandakan baris dan kolom. Seringkali array berdimensi dua disebut sebagai matriks karena mengandung baris dan kolom. Jenis data dua dimensi ini biasanya dapat menampilkan data yang terdiri dari dua jenis elemen yang berbeda. Berikut adalah contohnya :
-- Array integer dengan jumlah dan baris 2 dan jumlah kolom 3 : int arr2d[2][3];
-- Array float dengan jumlah baris 3 dan jumlah kolom 2 : float arr2f[3][2];
-- Array character dengan jumlah baris 4 dan jumlah kolom 1 : char arr2c[4][1];
+    - Array integer dengan jumlah dan baris 2 dan jumlah kolom 3 : int arr2d[2][3];
+    - Array float dengan jumlah baris 3 dan jumlah kolom 2 : float arr2f[3][2];
+    - Array character dengan jumlah baris 4 dan jumlah kolom 1 : char arr2c[4][1];
 3. Array Multi Dimensi<br/>
-Array Multi Dimensi, array yang mempunyai lebih dari sebuah nomor indeks pada setiap elemen array.
-Contoh :
-- Array integer dengan jumlah dimensi 3, jumlah elemen pertama 2, jumlah elemen kedua 3, dan jumlah elemen ketiga 4 : int arr3d[2][3][4];
-- Array float dengan jumlah dimensi 4, jumlah elemen pertama 1, jumlah elemen kedua 2, jumlah elemen ketiga 3, dan jumlah elemen keempat 5 : float arr3f[1][2][3][5];
-- Array character dengan jumlah dimensi 3, jumlah elemen pertama 4, jumlah elemen kedua 2, dan jumlah elemen ketiga 1 : char arr3c[4][2][1];
+Array Multi Dimensi, array yang mempunyai lebih dari sebuah nomor indeks pada setiap elemen array. Contoh :
+    - Array integer dengan jumlah dimensi 3, jumlah elemen pertama 2, jumlah elemen kedua 3, dan jumlah elemen ketiga 4 : int arr3d[2][3][4];
+    - Array float dengan jumlah dimensi 4, jumlah elemen pertama 1, jumlah elemen kedua 2, jumlah elemen ketiga 3, dan jumlah elemen keempat 5 : float arr3f[1][2][3][5];
+    - Array character dengan jumlah dimensi 3, jumlah elemen pertama 4, jumlah elemen kedua 2, dan jumlah elemen ketiga 1 : char arr3c[4][2][1];
 
 ## Guided 
 
