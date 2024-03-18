@@ -309,7 +309,6 @@ int main() {
 #### Output:
 ![Screenshot Output Unguided 3](Output-Unguided3_Modul2_Deka.png)
 Program C++ di atas memungkinkan pengguna untuk memasukkan ukuran array dan elemennya, dan kemudian menampilkan menu yang memungkinkan pengguna memilih operasi apa yang ingin dilakukan pada array tersebut. Opsi menu termasuk:
-
     - Mencari nilai maksimum dari elemen-elemen array.
     - Mencari nilai minimum dari elemen-elemen array.
     - Menghitung nilai rata-rata dari elemen-elemen array.
@@ -319,7 +318,6 @@ Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan piliha
 
 ## Kesimpulan
 Array adalah struktur data yang menyimpan data dalam satu tempat dan memungkinkan akses menggunakan indeks. Umumnya, array dibagi menjadi tiga jenis utama:
-
     - Array Satu Dimensi : Menyimpan data dalam satu baris dengan format Data[].
     - Array Dua Dimensi : Mengatur data dalam tabel dua dimensi dengan format Data[][].
     - Array Multidimensi : Memiliki lebih dari dua dimensi, seperti format Data[][][].
