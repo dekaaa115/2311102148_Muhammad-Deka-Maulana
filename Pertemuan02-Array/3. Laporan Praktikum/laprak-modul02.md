@@ -169,7 +169,7 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot Output Unguided 2](Output-Unguided2_Modul2_Deka.jpg)    
+![Screenshot Output Unguided 2](Output-Unguided1_Modul1_Deka.jpg)
 ### 2. Buatlah program input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
 
 ```C++
