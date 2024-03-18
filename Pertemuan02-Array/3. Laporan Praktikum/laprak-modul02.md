@@ -316,7 +316,7 @@ Program C++ di atas memungkinkan pengguna untuk memasukkan ukuran array dan elem
 Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan pilihan tersebut, program menggunakan switch case. Program akan terus berjalan hingga pengguna memilih opsi "4" untuk keluar.
 
 ## Kesimpulan
-Array adalah struktur data yang menyimpan data dalam satu tempat dan memungkinkan akses menggunakan indeks. Umumnya, array dibagi menjadi tiga jenis utama:
+Array adalah struktur data yang menyimpan data dalam satu tempat dan memungkinkan akses menggunakan indeks. Umumnya, array dibagi menjadi tiga jenis utama:<br/>
     - Array Satu Dimensi : Menyimpan data dalam satu baris dengan format Data[].<br/>
     - Array Dua Dimensi : Mengatur data dalam tabel dua dimensi dengan format Data[][].<br/>
     - Array Multidimensi : Memiliki lebih dari dua dimensi, seperti format Data[][][].<br/>
