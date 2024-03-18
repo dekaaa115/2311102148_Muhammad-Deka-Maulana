@@ -222,7 +222,7 @@ int main(){
 }
 ```
 #### Output:
-![Screenshot Output Unguided 2](Output-Unguided1_Modul2_Deka.png)
+![Screenshot Output Unguided 2](Output-Unguided2_Modul2_Deka.png)
 Program C++ di atas merupakan implementasi dari array tiga dimensi yang meminta pengguna untuk memasukkan ukuran array serta nilai-nilai di dalamnya. Setelah pengguna memasukkan ukuran array, program mengisi array dengan nilai-nilai yang dimasukkan oleh pengguna dan kemudian menampilkan isi array tersebut. Program ini memungkinkan pengguna untuk dengan mudah membuat, mengisi, dan melihat nilai-nilai dalam array tiga dimensi.
 
 ### 3. Buatlah program menu untuk mencari nilai maksimum, minimum dan nilai rata – rata dari suatu array dengan input yang dimasukkan oleh user!
