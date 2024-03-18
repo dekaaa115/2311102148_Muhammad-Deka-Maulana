@@ -170,6 +170,8 @@ int main() {
 ```
 #### Output:
 ![Screenshot Output Unguided 2](Output-Unguided1_Modul1_Deka.jpg)
+Program C++ diatas merupakan sebuah program sederhana yang meminta pengguna untuk memasukkan sejumlah angka, menyimpannya dalam sebuah array, dan kemudian menampilkan seluruh angka tersebut bersama dengan pemisahan antara angka genap dan ganjil. Setelah meminta pengguna untuk memasukkan jumlah angka, program menginisialisasi sebuah array sesuai dengan jumlah angka yang dimasukkan. Setelah itu, program meminta pengguna untuk memasukkan angka-angka tersebut satu per satu. Setelah seluruh angka dimasukkan, program menampilkan kembali seluruh angka dalam array, serta memisahkan antara angka-angka genap dan ganjil menggunakan operasi modulus. Hal ini dilakukan dengan cara mengiterasi melalui array dan memeriksa apakah angka tersebut habis dibagi dua atau tidak.
+
 ### 2. Buatlah program input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
 
 ```C++
