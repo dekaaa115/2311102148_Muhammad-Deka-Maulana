@@ -308,13 +308,12 @@ int main() {
 ```
 #### Output:
 ![Screenshot Output Unguided 3](Output-Unguided3_Modul2_Deka.png)
-Program C++ di atas memungkinkan pengguna untuk memasukkan ukuran array dan elemennya, dan kemudian menampilkan menu yang memungkinkan pengguna memilih operasi apa yang ingin dilakukan pada array tersebut. Opsi menu termasuk:
+Program C++ di atas memungkinkan pengguna untuk memasukkan ukuran array dan elemennya, dan kemudian menampilkan menu yang memungkinkan pengguna memilih operasi apa yang ingin dilakukan pada array tersebut. Opsi menu termasuk:<br/>
     - Mencari nilai maksimum dari elemen-elemen array.
     - Mencari nilai minimum dari elemen-elemen array.
     - Menghitung nilai rata-rata dari elemen-elemen array.
     - Keluar dari program.<br/>
-
-Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan pilihan tersebut, program menggunakan switch case. Program akan terus berjalan hingga pengguna memilih opsi "4" untuk keluar.
+<p>Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan pilihan tersebut, program menggunakan switch case. Program akan terus berjalan hingga pengguna memilih opsi "4" untuk keluar.<br/><p/>
 
 ## Kesimpulan
 Array adalah struktur data yang menyimpan data dalam satu tempat dan memungkinkan akses menggunakan indeks. Umumnya, array dibagi menjadi tiga jenis utama:
