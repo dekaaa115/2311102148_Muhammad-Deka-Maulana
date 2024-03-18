@@ -169,15 +169,61 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot Output Unguided 2](Output-Unguided1_Modul1_Deka.jpg)
+![Screenshot Output Unguided 1](Output-Unguided1_Modul1_Deka.jpg)
 Program C++ diatas merupakan sebuah program sederhana yang meminta pengguna untuk memasukkan sejumlah angka, menyimpannya dalam sebuah array, dan kemudian menampilkan seluruh angka tersebut bersama dengan pemisahan antara angka genap dan ganjil. Setelah meminta pengguna untuk memasukkan jumlah angka, program menginisialisasi sebuah array sesuai dengan jumlah angka yang dimasukkan. Setelah itu, program meminta pengguna untuk memasukkan angka-angka tersebut satu per satu. Setelah seluruh angka dimasukkan, program menampilkan kembali seluruh angka dalam array, serta memisahkan antara angka-angka genap dan ganjil menggunakan operasi modulus. Hal ini dilakukan dengan cara mengiterasi melalui array dan memeriksa apakah angka tersebut habis dibagi dua atau tidak.
 
 ### 2. Buatlah program input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
 
 ```C++
+#include <iostream>
+using namespace std;
 
+int main(){
+
+    int x, y, z;    // deklarasi variabel untuk ukuran array
+
+    cout << "Masukkan ukuran 'x' dalam array : ";    // meminta input ukuran array dari pengguna
+    cin >> x;
+    cout << "Masukkan ukuran 'y' dalam array : "; 
+    cin >> y;
+    cout << "Masukkan ukuran 'z' dalam array : "; 
+    cin >> z;
+
+    int arr[x][y][z];   // deklarasi array tiga dimensi dengan ukuran yang telah diinputkan
+
+    cout << "Masukkan Array :" << endl;   // meminta pengguna untuk mengisi array
+    for (int i = 0; i < x; i++) 
+    {
+        for (int j = 0; j < y; j++) 
+        {
+            for (int k = 0; k < z; k++) 
+            {
+                cout << "Input Array[" << i << "][" << j << "][" << k << "] = ";
+                cin >> arr[i][j][k];
+            }
+        }
+    }
+
+    cout << "Output Array :" << endl;    // menampilkan isi array
+    for (int i = 0; i < x; i++) 
+    {
+        for (int j = 0; j < y; j++) 
+        {
+            for (int k = 0; k < z; k++) 
+            {
+                cout << arr[i][j][k];
+            }
+            cout << endl;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
 ```
 #### Output:
+![Screenshot Output Unguided 2](Output-Unguided1_Modul2_Deka.png)
+Program C++ di atas merupakan implementasi dari array tiga dimensi yang meminta pengguna untuk memasukkan ukuran array serta nilai-nilai di dalamnya. Setelah pengguna memasukkan ukuran array, program mengisi array dengan nilai-nilai yang dimasukkan oleh pengguna dan kemudian menampilkan isi array tersebut. Program ini memungkinkan pengguna untuk dengan mudah membuat, mengisi, dan melihat nilai-nilai dalam array tiga dimensi.
 
 ### 3. Buatlah program menu untuk mencari nilai maksimum, minimum dan nilai rata – rata dari suatu array dengan input yang dimasukkan oleh user!
 
