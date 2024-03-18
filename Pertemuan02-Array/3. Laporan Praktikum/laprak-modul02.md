@@ -169,7 +169,7 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot Output Unguided 1](Output-Unguided1_Modul1_Deka.jpg)
+![Screenshot Output Unguided 1](Output-Unguided1_Modul2_Deka.jpg)
 Program C++ diatas merupakan sebuah program sederhana yang meminta pengguna untuk memasukkan sejumlah angka, menyimpannya dalam sebuah array, dan kemudian menampilkan seluruh angka tersebut bersama dengan pemisahan antara angka genap dan ganjil. Setelah meminta pengguna untuk memasukkan jumlah angka, program menginisialisasi sebuah array sesuai dengan jumlah angka yang dimasukkan. Setelah itu, program meminta pengguna untuk memasukkan angka-angka tersebut satu per satu. Setelah seluruh angka dimasukkan, program menampilkan kembali seluruh angka dalam array, serta memisahkan antara angka-angka genap dan ganjil menggunakan operasi modulus. Hal ini dilakukan dengan cara mengiterasi melalui array dan memeriksa apakah angka tersebut habis dibagi dua atau tidak.
 
 ### 2. Buatlah program input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!
@@ -228,11 +228,101 @@ Program C++ di atas merupakan implementasi dari array tiga dimensi yang meminta 
 ### 3. Buatlah program menu untuk mencari nilai maksimum, minimum dan nilai rata – rata dari suatu array dengan input yang dimasukkan oleh user!
 
 ```C++
+#include <iostream>
 
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Masukkan ukuran array: ";
+    cin >> n;
+
+    // membuat array dengan ukuran n
+    int arr[n];
+
+    // input elemen-elemen array
+    cout << "Masukkan elemen-elemen array[" << n << "]:\n";
+    for (int i = 0; i < n; ++i) {
+        cout << "Array[" << i+1 << "]: ";
+        cin >> arr[i];
+    }
+
+    char choice_148;
+    do {
+        // menampilkan menu
+        cout << "\n----- Deka Menu -----:\n";
+        cout << "1. Nilai Maksimum\n";
+        cout << "2. Nilai Minimum\n";
+        cout << "3. Nilai Rata-rata\n";
+        cout << "4. Keluar\n";
+        cout << "Masukkan Pilihan: ";
+        cin >> choice_148;
+
+        switch (choice_148) {
+
+            case '1': {
+                // mencari nilai maksimum
+                int max_148 = arr[0];
+                for (int i = 1; i < n; ++i) {
+                    if (arr[i] > max_148) {
+                        max_148 = arr[i];
+                    }
+                }
+                cout << "Nilai Maksimum: " << max_148 << endl;
+                break;
+            }
+
+            case '2': {
+                // mencari nilai minimum
+                int min_148 = arr[0];
+                for (int i = 1; i < n; ++i) {
+                    if (arr[i] < min_148) {
+                        min_148 = arr[i];
+                    }
+                }
+                cout << "Nilai Minimum: " << min_148 << endl;
+                break;
+            }
+
+            case '3': {
+                // menghitung nilai rata-rata
+                double sum = 0.0;
+                for (int i = 0; i < n; ++i) {
+                    sum += arr[i];
+                }
+                double average = sum / n;
+                cout << "Nilai Rata-rata: " << average << endl;
+                break;
+            }
+
+            case '4':
+                cout << "Thanks! Program selesai.\n";
+                break;
+            default:
+                cout << "Pilihan tidak valid. Silakan pilih lagi.\n";
+        }
+    } while (choice_148 != '4');
+
+    return 0;
+}
 ```
 #### Output:
+![Screenshot Output Unguided 3](Output-Unguided3_Modul2_Deka.png)
+Program C++ di atas memungkinkan pengguna untuk memasukkan ukuran array dan elemennya, dan kemudian menampilkan menu yang memungkinkan pengguna memilih operasi apa yang ingin dilakukan pada array tersebut. Opsi menu termasuk:
+
+    - Mencari nilai maksimum dari elemen-elemen array.
+    - Mencari nilai minimum dari elemen-elemen array.
+    - Menghitung nilai rata-rata dari elemen-elemen array.
+    - Keluar dari program.
+
+Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan pilihan tersebut, program menggunakan switch case. Program akan terus berjalan hingga pengguna memilih opsi "4" untuk keluar.
 
 ## Kesimpulan
+Array adalah struktur data yang menyimpan data dalam satu tempat dan memungkinkan akses menggunakan indeks. Umumnya, array dibagi menjadi tiga jenis utama:
+
+    - Array Satu Dimensi : Menyimpan data dalam satu baris dengan format Data[].
+    - Array Dua Dimensi : Mengatur data dalam tabel dua dimensi dengan format Data[][].
+    - Array Multidimensi : Memiliki lebih dari dua dimensi, seperti format Data[][][].
 
 ## Referensi
 [1] raisahrahma hutasuhut, Array 1 dimensi dan 2 dimensi. academia.edu<br/>
