@@ -136,5 +136,5 @@ int main()
 ## Kesimpulan
 
 ## Referensi
-[1] raisahrahma hutasuhut, Array 1 dimensi dan 2 dimensi. academia.edu
-[2] Arrosyidi, A. (2017). In I. B. Surabaya, Buku Ajar Bahasa Pemrograman Java (p. 30). Surabaya: PT Revka Petra Media.
+[1] raisahrahma hutasuhut, Array 1 dimensi dan 2 dimensi. academia.edu<br/>
+[2] Arrosyidi, A. (2017). In I. B. Surabaya, Buku Ajar Bahasa Pemrograman Java (p. 30). Surabaya: PT Revka Petra Media.<br/>
