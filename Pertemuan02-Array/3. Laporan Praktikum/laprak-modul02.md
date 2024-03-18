@@ -312,7 +312,7 @@ Program C++ di atas memungkinkan pengguna untuk memasukkan ukuran array dan elem
     - Mencari nilai maksimum dari elemen-elemen array.
     - Mencari nilai minimum dari elemen-elemen array.
     - Menghitung nilai rata-rata dari elemen-elemen array.
-    - Keluar dari program.
+    - Keluar dari program.<br/>
 
 Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan pilihan tersebut, program menggunakan switch case. Program akan terus berjalan hingga pengguna memilih opsi "4" untuk keluar.
 
@@ -320,7 +320,7 @@ Untuk menangani pilihan pengguna dan melakukan operasi yang sesuai dengan piliha
 Array adalah struktur data yang menyimpan data dalam satu tempat dan memungkinkan akses menggunakan indeks. Umumnya, array dibagi menjadi tiga jenis utama:
     - Array Satu Dimensi : Menyimpan data dalam satu baris dengan format Data[].
     - Array Dua Dimensi : Mengatur data dalam tabel dua dimensi dengan format Data[][].
-    - Array Multidimensi : Memiliki lebih dari dua dimensi, seperti format Data[][][].
+    - Array Multidimensi : Memiliki lebih dari dua dimensi, seperti format Data[][][].<br/>
 
 ## Referensi
 [1] raisahrahma hutasuhut, Array 1 dimensi dan 2 dimensi. academia.edu<br/>
