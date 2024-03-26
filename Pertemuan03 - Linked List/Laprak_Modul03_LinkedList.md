@@ -2,6 +2,8 @@
 <p align="center">Muhammad Deka Maulana - 2311102148</p>
 
 ## Dasar Teori
+<br>Linked list adalah strukur data linier berbentuk rantai simpul di mana setiap simpul menyimpan 2 item, yaitu nilai data dan pointer ke simpul elemen berikutnya. Berbeda dengan array, elemen linked list tidak ditempatkan dalam alamat memori yang berdekatan melainkan elemen ditautkan menggunakan pointer.<br/>
+![Screenshot Dasar Teori 1](DasarTeori1_Modul03_Deka.png)
 
 ## Guided 
 
