@@ -3,7 +3,37 @@
 
 ## Dasar Teori
 <br>Linked list adalah strukur data linier berbentuk rantai simpul di mana setiap simpul menyimpan 2 item, yaitu nilai data dan pointer ke simpul elemen berikutnya. Berbeda dengan array, elemen linked list tidak ditempatkan dalam alamat memori yang berdekatan melainkan elemen ditautkan menggunakan pointer.<br/>
+
 ![Screenshot Dasar Teori 1](DasarTeori1_Modul03_Deka.png)
+
+<br>Simpul pertama dari linked list disebut sebagai head atau simpul kepala. Apabila linked list berisi elemen kosong, maka nilai pointer dari head menunjuk ke NULL. Begitu juga untuk pointer berikutnya dari simpul terakhir atau simpul ekor akan menunjuk ke NULL.<br/>
+
+<br>Ukuran elemen dari linked list dapat bertambah secara dinamis dan mudah untuk menyisipkan dan menghapus elemen karena tidak seperti array, kita hanya perlu mengubah pointer elemen sebelumnya dan elemen berikutnya untuk menyisipkan atau menghapus elemen.<br/>
+
+<br>Linked list biasanya digunakan untuk membuat file system, adjacency list, dan hash table.<br/>
+
+### 1. Single Linked List
+<br>Single linked list adalah linked list unidirectional. Jadi, kita hanya dapat melintasinya dalam satu arah, yaitu dari simpul kepala ke simpul ekor.<br/>
+
+![Screenshot Dasar Teori 1](SingleLinkedList_Modul03_Deka.png)
+
+### 2. Double Linked List
+<br>Double linked list adalah linked list bidirectional. Jadi, kita bisa melintasinya secara dua arah. Tidak seperti single linked list, simpul double linked list berisi satu pointer tambahan yang disebut previous pointer. Pointer ini menunjuk ke simpul sebelumnya.<br/>
+
+![Screenshot Dasar Teori 1](DoubleLinkedList_Modul03_Deka.png)
+
+### Fungsi dan Kegunaan Linked List
+    - Linked list dapat digunakan untuk mengimplementasikan struktur data lain seperti stack, queue, graf dll.
+    - Digunakan untuk melakukan operasi aritmatika pada bilangan long integer
+    - Dipakai untuk representasi matriks rongga.
+    - Digunakan dalam alokasi file yang ditautkan.
+    - Membantu dalam manajemen memori.
+
+### Kelebihan Linked List
+    <br>- Struktur data dinamis : Linked list adalah himpunan dinamis sehingga dapat bertambah dan menyusut saat runtime dengan mengalokasikan dan membatalkan alokasi memori. Jadi kita tidak perlu memberikan ukuran awal dari linked list.<br/>
+    - Tidak boros memori : Dalam linked list, pemanfaatan memori yang efisien dapat dicapai karena ukuran linked list bertambah atau berkurang pada runtime sehingga tidak ada pemborosan memori dan tidak perlu mengalokasikan memori sebelumnya.
+    - Implementasi : Struktur data linier seperti stack dan queue seringkali mudah diimplementasikan menggunakan linked list.
+    - Operasi penyisipan dan penghapusan : Operasi penyisipan dan penghapusan cukup mudah dalam linked list. Kita tidak perlu menggeser elemen setelah operasi penyisipan atau penghapusan elemen, hanya alamat yang ada di pointer berikutnya saja yang perlu diperbarui.
 
 ## Guided 
 
