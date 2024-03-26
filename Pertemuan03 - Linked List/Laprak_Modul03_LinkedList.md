@@ -503,7 +503,7 @@ Kode di atas adalah program yang dapat memanipulasi daftar bersambung dua. Ini d
 ## Unguided 
 
 ### 1. Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan Usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:
-![Screenshot Soal Unguided 1](Soal-Unguided-1_Modul03_Deka.PNG)
+![Screenshot Soal Unguided 1](Soal-Unguided-1_Modul03_Deka.png)
 
 ```C++
 #include <iostream>
@@ -1064,5 +1064,5 @@ int main(){
 Kedua jenis linked list ini memiliki keunggulan dalam penyisipan dan penghapusan elemen yang lebih efisien dibandingkan dengan array. Namun, linked list membutuhkan lebih banyak memori karena setiap simpulnya menggunakan lebih dari satu blok memori dan memiliki akses data yang biasanya lebih lambat dibandingkan dengan array.
 
 ## Referensi
-[1] Trivusi, Struktur Data Linked List: Pengertian, Karakteristik, dan Jenis-jenisnya
+<br>[1] Trivusi, Struktur Data Linked List: Pengertian, Karakteristik, dan Jenis-jenisnya<br/>
 [2] Harihayati Mardzuki, Tati. (2020). Double Linked List.
