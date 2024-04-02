@@ -2046,7 +2046,7 @@ int main(){
 ### Output:
 
 ### Output 1 (Tambah Data Wati Diantara Farrel dan Denis)
-![Screenshot Output Unguided 3](wati.png)
+![Screenshot Output Unguided 3](tambahwati.png)
 
 ### Output 2 (Hapus Data Denis)
 ![Screenshot Output Unguided 3](hapusdenis.png)
