@@ -1,6 +1,7 @@
 # <h1 align="center">Laporan Praktikum Modul 4 - Linked List Circular & Non-Circular</h1>
 <p align="center">Muhammad Deka Maulana - 2311102148</p>
 
+
 ## Dasar Teori
 <br>Linked list adalah struktur data yang mengandung sejumlah elemen data, di mana setiap elemen (node) terhubung satu sama lain melalui pointer. Terdapat dua jenis pointer yang umum digunakan dalam linked list, yaitu head dan tail. Head mengacu pada node pertama dalam linked list dan digunakan sebagai titik awal untuk mengakses semua data dalam struktur. Sementara itu, tail adalah node terakhir yang menunjukkan akhir dari urutan node. Ketika linked list kosong, baik head maupun tail menunjuk ke NULL.<br/>
 <br>Dibandingkan dengan array, linked list memiliki fleksibilitas ukuran elemen yang dapat berubah secara dinamis dan memungkinkan untuk penyisipan dan penghapusan elemen dengan mudah. Berbeda dengan array, alokasi memori pada linked list tidak harus berurutan atau berdekatan.<br/>
