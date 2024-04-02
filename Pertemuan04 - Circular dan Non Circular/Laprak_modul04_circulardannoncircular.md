@@ -2109,8 +2109,11 @@ int main(){
 Program yang diberikan pada unguided 3 memiliki kesamaan dengan program yang ada pada unguided 1. Setelah pengguna memasukkan data nama mahasiswa dan NIM pada unguided 2, kali ini praktikan diminta untuk melakukan serangkaian operasi tertentu. Operasi-operasi tersebut meliputi penambahan data baru di antara data yang sudah ada, penghapusan data tertentu, pengubahan data, serta menampilkan seluruh data yang telah tersimpan. Dengan demikian, praktikan akan berinteraksi dengan berbagai fungsi dan prosedur yang telah disediakan untuk memanipulasi list sesuai dengan kebutuhan yang diberikan.
 
 ## Kesimpulan
+Linked list adalah struktur data yang terdiri dari sejumlah simpul atau node yang terhubung secara linier menggunakan pointer. Terdapat dua jenis linked list berdasarkan hubungan antara elemennya, yaitu linked list non-circular dan linked list circular.
+Linked list non-circular tidak memiliki siklus lingkaran, sehingga proses traversal dari awal hingga akhir linked list akan mencapai elemen terakhir dan berakhir. Jenis linked list non-circular terdiri dari Single Linked List Non-Circular (SLLNC) dan Double Linked List Non-Circular (DLLNC). Pada SLLNC, node selanjutnya dari tail adalah NULL, sedangkan pada DLLNC, node sebelum head dan node setelah tail menunjuk ke NULL.
+Sementara itu, linked list circular membentuk siklus lingkaran karena elemen terakhir menunjuk kembali ke elemen pertama, sehingga tidak ada elemen yang menunjuk ke NULL. Jenis linked list circular terdiri dari Single Linked List Circular (SLLC) dan Double Linked List Circular (DLLC). Pada SLLC, node selanjutnya dari tail adalah head, sedangkan pada DLLC, node sebelum head adalah tail dan node setelah tail adalah head.
 
 ## Referensi
-<br>[1]Santoso, Joseph Teguh. 2021. "Struktur Data dan Algoritma : Bagian 1". Semarang : Yayasan Prima Agus Teknik.<br/>
+[1]Santoso, Joseph Teguh. 2021. "Struktur Data dan Algoritma : Bagian 1". Semarang : Yayasan Prima Agus Teknik.
 <br>[2] Sihombing, Johnson & Ganesha, Politeknik & Gatot, Jl & No, Soebroto & Bandung,. (2020). PENERAPAN STACK DAN QUEUE PADA ARRAY DAN LINKED LIST DALAM JAVA.<br/>
 [3] Triase, 2020. "Diktat Edisi Revisi : STRUKTUR DATA". Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
