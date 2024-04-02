@@ -6,6 +6,28 @@
 <br>Dibandingkan dengan array, linked list memiliki fleksibilitas ukuran elemen yang dapat berubah secara dinamis dan memungkinkan untuk penyisipan dan penghapusan elemen dengan mudah. Berbeda dengan array, alokasi memori pada linked list tidak harus berurutan atau berdekatan.<br/>
 <br>Linked list memiliki beberapa jenis, termasuk single linked list, double linked list, single circular linked list, dan double circular linked list. Setiap jenis memiliki karakteristik dan kegunaan yang berbeda dalam mengelola dan mengakses data.<br/>
 
+### A. Linked List Circular
+<br>Linked list circular adalah variasi dari linked list di mana elemen terakhir ditautkan kembali ke elemen pertama, membentuk lingkaran atau siklus. Dalam linked list circular, terdapat siklus di mana node terakhir menunjuk kembali ke node pertama, sehingga iterasi melalui linked list akan terus berulang mengelilingi siklus. Tidak ada elemen yang menunjuk ke NULL dalam linked list circular karena keseluruhan strukturnya membentuk siklus tertutup. Seperti halnya dengan linked list non-circular, operasi yang dapat dilakukan untuk memanipulasi linked list circular mencakup deklarasi node, inisialisasi node head dan tail, pengecekan isi node, penambahan node (di depan, di belakang, di tengah), pengubahan isi node (di depan, di belakang, di tengah), penghapusan node (di depan, di belakang, di tengah), penghapusan seluruh list, dan menampilkan list.<br/>
+
+- Single Linked List Circular
+![Screenshot Dasar Teori](single_linkedlist_circular_deka.png)
+<br>Dalam single linked list circular, setiap node terdiri dari data yang disimpan serta pointer next yang menunjuk ke node berikutnya dalam urutan. Proses ini berlanjut hingga mencapai node terakhir, yang juga disebut tail. Pointer next dari tail mengarah ke node pertama, yang juga disebut head.<br/>
+
+- Double Linked List Circular
+![Screenshot Dasar Teori](double_linkedlist_circular_deka.png)
+<br>Dalam double linked list circular, setiap node terdiri dari data yang disimpan, pointer next yang menunjuk ke node berikutnya, dan pointer prev yang menunjuk ke node sebelumnya. Pointer prev dari node pertama (head) menunjuk ke node terakhir (tail), dan pointer next dari node terakhir (tail) menunjuk ke node pertama (head).<br/>
+
+### B. Linked List Non-Circular
+<br>Linked List Non-Circular adalah struktur data yang terdiri dari sejumlah node di mana setiap node memiliki pointer ke node berikutnya dalam urutan. Node terakhir atau tail dalam linked list non-circular menunjuk ke NULL, menandakan akhir dari list. Tidak ada siklus atau lingkaran dalam linked list non-circular, yang berarti tidak ada node yang menunjuk kembali ke node sebelumnya. Proses traversing dari awal hingga akhir linked list akan mencapai node terakhir dan berakhir di sana. Operasi yang dapat dilakukan untuk memanipulasi linked list non-circular termasuk deklarasi node, inisialisasi node head dan tail, pengecekan isi node, penambahan node (di depan, di belakang, di tengah), pengubahan isi node (di depan, di belakang, di tengah), penghapusan node (di depan, di belakang, di tengah), penghapusan seluruh list, dan menampilkan list.<br/>
+
+- Single Linked List Non-Circular
+![Screenshot Dasar Teori](single_linkedlist_non-circular_deka.png)
+<br>Dalam single linked list non-circular, setiap node terdiri dari data yang disimpan serta pointer next yang menunjuk ke node berikutnya dalam urutan. Proses ini berlanjut sampai mencapai node terakhir, yang juga dikenal sebagai tail. Pointer next dari tail mengarah ke NULL, menandakan akhir dari linked list atau bahwa tidak ada node selanjutnya.<br/>
+
+- Double Linked List Non-Circular
+![Screenshot Dasar Teori](double_linkedlist_non-circular_deka.png)
+<br>Dalam double linked list non-circular, setiap node mengandung data yang disimpan, pointer next yang menunjuk ke node berikutnya, dan pointer prev yang menunjuk ke node sebelumnya. Pointer prev dari node pertama (head) menunjuk ke NULL, menandakan bahwa tidak ada node sebelumnya, sementara pointer next dari node terakhir (tail) juga menunjuk ke NULL, menandakan bahwa tidak ada node setelahnya.<br/>
+
 ## Guided 
 
 ### 1. Linked List Non Circular
@@ -2085,4 +2107,6 @@ Program yang diberikan pada unguided 3 memiliki kesamaan dengan program yang ada
 ## Kesimpulan
 
 ## Referensi
-<br>[1] Sihombing, Johnson & Ganesha, Politeknik & Gatot, Jl & No, Soebroto & Bandung,. (2020). PENERAPAN STACK DAN QUEUE PADA ARRAY DAN LINKED LIST DALAM JAVA.<br/>
+<br>[1]Santoso, Joseph Teguh. 2021. "Struktur Data dan Algoritma : Bagian 1". Semarang : Yayasan Prima Agus Teknik.<br/>
+<br>[2] Sihombing, Johnson & Ganesha, Politeknik & Gatot, Jl & No, Soebroto & Bandung,. (2020). PENERAPAN STACK DAN QUEUE PADA ARRAY DAN LINKED LIST DALAM JAVA.<br/>
+[3] Triase, 2020. "Diktat Edisi Revisi : STRUKTUR DATA". Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN.
