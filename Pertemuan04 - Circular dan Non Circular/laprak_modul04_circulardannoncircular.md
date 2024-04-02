@@ -6,7 +6,8 @@
 ## Guided 
 
 ### 1. Linked List Non Circular
-C++
+
+```C++
 #include<iostream>
 
 using namespace std;
@@ -254,13 +255,14 @@ int main(){
 
     return 0;
 }
+```
 
 #### Deskripsi Program
 Deskripsi Guided 1
 
 ### 2. Linked List Circular
 
-C++
+```C++
 #include <iostream>
 using namespace std;
 
@@ -478,6 +480,7 @@ int main(){
     
     return 0;
 }
+```
 
 #### Deskripsi Program
 Deskripsi Guided 2
