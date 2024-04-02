@@ -489,8 +489,8 @@ Deskripsi Guided 2
 
 ### 1. [Soal Unguided 1]
 
-C++
-
+```C++
+```
 
 #### Output:
 ![Screenshot Output Unguided 1](Output-Unguided1_Modul4_Deka.png)
@@ -499,8 +499,8 @@ Deskripsi Program Unguided 1
 
 ### 2. [Soal unguided no 2]
 
-C++
-
+```C++
+```
 
 #### Output:
 ![Screenshot Output Unguided 2](Output-Unguided2_Modul4_Deka.png)
@@ -509,11 +509,11 @@ Deskripsi Program Unguided 2
 
 ### 3. [Soal Unguided no 3]
 
-C++
-
+```C++
+```
 
 #### Output:
-![Screenshot Output Unguided 3(Output-Unguided3_Modul4_Deka.png)
+![Screenshot Output Unguided 3](Output-Unguided3_Modul4_Deka.png)
 
 Deskripsi Program Unguided 3
 
