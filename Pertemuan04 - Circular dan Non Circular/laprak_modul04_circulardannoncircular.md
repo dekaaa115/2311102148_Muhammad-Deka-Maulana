@@ -1523,7 +1523,7 @@ int main(){
 ![Screenshot Output Unguided 2](3Deka.png)
 
 ### Output 3 (Tambah Farrel)
-![Screenshot Output Unguided 2](2Farrel.png)
+![Screenshot Output Unguided 2](4Farrel.png)
 
 ### Output 4 (Tambah Denis)
 ![Screenshot Output Unguided 2](5Denis.png)
