@@ -258,7 +258,7 @@ int main(){
 ```
 
 #### Deskripsi Program
-<br>Program di atas mengimplementasikan sebuah single linked list non-circular menggunakan bahasa C++. Pertama, sebuah struct bernama Node dideklarasikan, yang berisi data dan pointer next. Variabel head dan tail diinisialisasi dengan NULL untuk menunjukkan bahwa linked list masih kosong. Kemudian, beberapa fungsi dibuat untuk menambahkan data di berbagai posisi dalam linked list, menghitung jumlah elemen, menghapus elemen di berbagai posisi, mengubah data di berbagai posisi, menghapus seluruh data, dan menampilkan data. Semua fungsi ini kemudian dipanggil di dalam fungsi main. Tampilan output dari program tersebut akan menampilkan operasi-operasi yang dilakukan terhadap linked list yang telah dibuat.<br/>
+Program di atas mengimplementasikan sebuah single linked list non-circular menggunakan bahasa C++. Pertama, sebuah struct bernama Node dideklarasikan, yang berisi data dan pointer next. Variabel head dan tail diinisialisasi dengan NULL untuk menunjukkan bahwa linked list masih kosong. Kemudian, beberapa fungsi dibuat untuk menambahkan data di berbagai posisi dalam linked list, menghitung jumlah elemen, menghapus elemen di berbagai posisi, mengubah data di berbagai posisi, menghapus seluruh data, dan menampilkan data. Semua fungsi ini kemudian dipanggil di dalam fungsi main. Tampilan output dari program tersebut akan menampilkan operasi-operasi yang dilakukan terhadap linked list yang telah dibuat.
 
 ### 2. Linked List Circular
 
