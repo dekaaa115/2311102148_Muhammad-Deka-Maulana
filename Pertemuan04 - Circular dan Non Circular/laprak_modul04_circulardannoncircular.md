@@ -28,7 +28,7 @@
 ![Screenshot Dasar Teori](double_linkedlist_non-circular_deka.png)
 <br>Dalam double linked list non-circular, setiap node mengandung data yang disimpan, pointer next yang menunjuk ke node berikutnya, dan pointer prev yang menunjuk ke node sebelumnya. Pointer prev dari node pertama (head) menunjuk ke NULL, menandakan bahwa tidak ada node sebelumnya, sementara pointer next dari node terakhir (tail) juga menunjuk ke NULL, menandakan bahwa tidak ada node setelahnya.<br/>
 
-## Guided 
+### Guided 
 
 ### 1. Linked List Non Circular
 
