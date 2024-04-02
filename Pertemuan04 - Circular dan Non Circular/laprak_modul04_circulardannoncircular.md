@@ -2,6 +2,9 @@
 <p align="center">Muhammad Deka Maulana - 2311102148</p>
 
 ## Dasar Teori
+<br>Linked list adalah struktur data yang mengandung sejumlah elemen data, di mana setiap elemen (node) terhubung satu sama lain melalui pointer. Terdapat dua jenis pointer yang umum digunakan dalam linked list, yaitu head dan tail. Head mengacu pada node pertama dalam linked list dan digunakan sebagai titik awal untuk mengakses semua data dalam struktur. Sementara itu, tail adalah node terakhir yang menunjukkan akhir dari urutan node. Ketika linked list kosong, baik head maupun tail menunjuk ke NULL.<br/>
+<br>Dibandingkan dengan array, linked list memiliki fleksibilitas ukuran elemen yang dapat berubah secara dinamis dan memungkinkan untuk penyisipan dan penghapusan elemen dengan mudah. Berbeda dengan array, alokasi memori pada linked list tidak harus berurutan atau berdekatan.<br/>
+<br>Linked list memiliki beberapa jenis, termasuk single linked list, double linked list, single circular linked list, dan double circular linked list. Setiap jenis memiliki karakteristik dan kegunaan yang berbeda dalam mengelola dan mengakses data.<br/>
 
 ## Guided 
 
@@ -2082,4 +2085,4 @@ Program yang diberikan pada unguided 3 memiliki kesamaan dengan program yang ada
 ## Kesimpulan
 
 ## Referensi
-[1]
+<br>[1] Sihombing, Johnson & Ganesha, Politeknik & Gatot, Jl & No, Soebroto & Bandung,. (2020). PENERAPAN STACK DAN QUEUE PADA ARRAY DAN LINKED LIST DALAM JAVA.<br/>
