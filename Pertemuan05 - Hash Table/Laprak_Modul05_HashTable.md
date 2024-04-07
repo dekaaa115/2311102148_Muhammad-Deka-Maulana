@@ -3,26 +3,37 @@
 
 ## Dasar Teori
 
-1. Pengenalan Hash Table<br/>
+### Hashing 
+Hashing adalah teknik untuk mengubah data atau informasi menjadi data yang lebih kecil, lebih mudah diterima, dan lebih mudah diterima. Tabel hashing adalah sebuah data structure yang menggunakan fungsi hash untuk menyimpan dan mengambil data. Fungsi hash itu sendiri adalah sebuah fungsi yang menerima kunci sebagai input dan menghasilkan indeks komponen dalam array yang dikenal sebagai tabel hash. Indeks ini disebut sebagai indeks hash. Tabel hash mengacu pada model data yang menghubungkan kunci ke nilai melalui fungsi hash. Hash menyimpan data secara asosiatif dalam array dengan indeks unik untuk setiap nilai data.<br/>
+
+### Hash Table<br/>
 
 Hash Table adalah sebuah struktur data yang terdiri atas sebuah tabel dan fungsi yang bertujuan untuk memetakan nilai kunci yang unik untuk setiap record (baris) menjadi angka (hash) lokasi record tersebut dalam sebuah tabel.<br/>
-Menyimpan data pada memori ke dalam baris-baris dan kolom-kolom sehingga membentuk table yang diakses dengan cepat
 ![Screenshot Dasar Teori Hash Table](Dasar-Teori_Hash-Table_Modul5_Deka.png)
+Tabel hashing digunakan untuk menyimpan dan mengelola data dengan cepat dan efisien. Dalam penggunaan praktis, tabel hash dapat digunakan untuk membuat pencarian data lebih cepat, seperti pencarian kata sandi dalam sistem pengelolaan kata sandi. Tabel hash dapat juga digunakan untuk mengelola data yang berubah-ubah, seperti daftar kontak yang sering diubah.<br/>
+Tabel hashing memiliki beberapa kendala, yaitu tabrakan. Tabrakan terjadi ketika fungsi hash mengembalikan sama indeks untuk dua atau lebih kunci. Untuk mengatasi kendala tabrakan, ada beberapa metode yang dapat digunakan, seperti chaining, closed hashing, dan probing.<br/>
 
-2. Tujuan Hash Table
+Chaining adalah strategi untuk mencegah tabrakan. Dengan hashing berantai, setiap slot dalam tabel hash berfungsi sebagai simpul utama untuk data, yang akan dimasukkan setelahnya. Konsekuensinya, jika node kosong, data ditambahkan ke root node. Sebaliknya, jika data sudah ada, data yang masuk dilampirkan atau disisipkan setelah node kepala yang ada.<br/>
+
+Closed hashing adalah teknik yang digunakan untuk menyelesaikan tabrakan dalam tabel hash. Pendekatan ini menyelesaikan tabrakan hash dengan menjelajahi (atau memindai) posisi alternatif di dalam larik (urutan probe). Probing ini dapat terjadi dalam bentuk :<br/>
+- Probing linier, di mana interval antar probe biasanya ditentukan pada 1 unit.
+- Probing kuadrat, di mana jarak antara probe bertambah secara kuadrat (sebagaimana digariskan oleh fungsi kuadrat).
+- Pencirian ganda, di mana interval di antara probe ditentukan untuk setiap catatan tetapi dihitung menggunakan algoritme hash lain, seperti yang dibahas di atas.
+
+### Tujuan Hash Table
 - Mendapatkan posisi (lokasi, alamat) record secara langsung (immediate, direct) pada waktu dicari.
 - Mempercepat pencarian kembali dari banyak data yang disimpan.
 - Dapat memotong banyak biaya pencarian direktori. (memasukkan berkas,menghapus data juga lebih mudah dan cepat)
 - Mempercepat table look-up, atau untuk membandingkan data (misalnya mencari data tertentu dalam sebuah basis data, mendeteksi data yang terduplikasi dalam sebuah file berukuran besar, dan sebagainya).
 - Proses menyimpan dan mencari data lebih cepat
 
-3. Kelebihan Hash Table
+### Kelebihan Hash Table
 - Waktu aksesnya yang cukup cepat, jika record yang dicari langsung berada pada angka hash lokasi penyimpanannya.
 - Hashing relatif lebih cepat
 - Kecepatan dalam insertions, deletions, maupun searching relatif sama
 - Cocok untuk merepresentasikan data dengan frekuensi insert, delete dan search yang tinggi
 
-4. Kekurangan Hash Table
+### Kekurangan Hash Table
 - Sering sekali ditemukan hash table yang recordrecordnya mempunyai angka hash yang sama (bertabrakan).
 - Sulit (tidak efficient) untuk mencetak seluruh elemen pada hash table
 - Tidak efficient untuk mencari elemen minimum or maximum
