@@ -596,10 +596,16 @@ int main()
 ![Screenshot Output Unguided 1](Output-Unguided1-4_Modul5_Deka.png)
 ![Screenshot Output Unguided 1](Output-Unguided1-5_Modul5_Deka.png)
 
+Program di atas merupakan implementasi dari sistem pengelolaan data mahasiswa menggunakan struktur data hash table. Hash table yang digunakan memiliki kapasitas untuk menyimpan data hingga 100 mahasiswa. Program ini menyediakan beberapa fitur penting, seperti penambahan data mahasiswa, penghapusan data mahasiswa, pencarian data berdasarkan NIM, pencarian data berdasarkan rentang nilai, serta tampilan keseluruhan data mahasiswa yang tersimpan.<br/>
 
+Untuk menjalankan operasinya, program menggunakan kelas `HashMap` yang dilengkapi dengan beberapa metode. Metode `hashFunc` digunakan untuk melakukan penghitungan nilai hash dari kunci yang diberikan. Selain itu, terdapat metode `insert` untuk menambahkan data mahasiswa baru ke dalam hash table, `remove` untuk menghapus data berdasarkan nama, `searchByNIM` untuk mencari data berdasarkan NIM, `CariRentangNilai` untuk mencari data berdasarkan rentang nilai, dan `print` untuk menampilkan seluruh data mahasiswa yang tersimpan dalam hash table.<br/>
+
+Dengan berbagai fitur yang tersedia, pengguna dapat memilih menu yang diinginkan dan melakukan operasi sesuai dengan pilihan yang dipilih. Program akan terus berjalan hingga pengguna memilih untuk keluar dari program.
 
 ## Kesimpulan
+Hashing adalah cara untuk mengubah data besar menjadi nilai yang lebih kecil dan unik. Hash Table adalah struktur data yang menyimpan data dengan menggunakan kunci unik untuk setiap elemen dan nilai terkaitnya. Hash Table menggunakan fungsi hash untuk mengonversi kunci menjadi indeks dalam tabel, memungkinkan pencarian dan penyimpanan data secara efisien. Ada dua teknik untuk menangani kolisi dalam Hash Table: Open Hashing (Chaining) dan Closed Hashing (Linear Probing, Quadratic Probing, dan Double Hashing).<br/>
 
+Hash table adalah struktur data yang menggunakan fungsi hash untuk memetakan nilai kunci ke indeks dalam array. Ini memungkinkan akses data dalam waktu konstan, tidak peduli seberapa besar data tersebut. Hash table efisien untuk operasi pencarian, penyisipan, dan penghapusan data. Mekanisme untuk menangani kolisi, di mana dua kunci menghasilkan nilai hash yang sama, dapat dilakukan dengan chaining (menggunakan linked list) atau probing (mencari slot kosong dalam array). Hash table mempercepat akses data dan cocok digunakan dalam berbagai bidang, dari pengarsipan hingga pengolahan jaringan komputer.
 
 ## Referensi
 [1] Annisa Puspa Kirana, S.Kom, M.Kom, 2019, "TABEL HASH (HASH TABLE)". https://www.scribd.com/document/407460664/TABEL-HASH-HASH-TABLE-pdf<br/>
