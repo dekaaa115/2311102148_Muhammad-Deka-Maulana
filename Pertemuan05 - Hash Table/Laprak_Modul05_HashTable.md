@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 5 - Hash Table</h1>
-<p align="center">Jordan Angkawijaya - 2311102139</p>
+<p align="center">Muhammad Deka Maulana - 2311102148</p>
 
 ## Dasar Teori
 
