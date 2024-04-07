@@ -3,29 +3,28 @@
 
 ## Dasar Teori
 
-## PENGENALAN HASH TABLE
+1. Pengenalan Hash Table
 Hash Table adalah sebuah struktur data yang terdiri atas sebuah tabel dan fungsi yang bertujuan untuk memetakan nilai kunci yang unik untuk setiap record (baris) menjadi angka (hash) lokasi record tersebut dalam sebuah tabel.<br/>
 Menyimpan data pada memori ke dalam baris-baris dan kolom-kolom sehingga membentuk table yang diakses dengan cepat
 ![Screenshot Dasar Teori Hash Table](Dasar-Teori_Hash-Table_Modul5_Deka.png)
 
-## TUJUAN HASH TABLE
-1. Mendapatkan posisi (lokasi, alamat) record secara langsung (immediate, direct) pada waktu dicari.
-2. Mempercepat pencarian kembali dari banyak data yang disimpan.
-3. Dapat memotong banyak biaya pencarian direktori. (memasukkan berkas,menghapus data juga lebih mudah dan cepat)
-4. Mempercepat table look-up, atau untuk membandingkan data (misalnya mencari data tertentu dalam sebuah basis data, mendeteksi data yang terduplikasi dalam sebuah file berukuran besar, dan sebagainya).
-5. Proses menyimpan dan mencari data lebih cepat
+2. Tujuan Hash Table
+- Mendapatkan posisi (lokasi, alamat) record secara langsung (immediate, direct) pada waktu dicari.
+- Mempercepat pencarian kembali dari banyak data yang disimpan.
+- Dapat memotong banyak biaya pencarian direktori. (memasukkan berkas,menghapus data juga lebih mudah dan cepat)
+- Mempercepat table look-up, atau untuk membandingkan data (misalnya mencari data tertentu dalam sebuah basis data, mendeteksi data yang terduplikasi dalam sebuah file berukuran besar, dan sebagainya).
+- Proses menyimpan dan mencari data lebih cepat
 
-## KELEBIHAN HASH TABLE
-1. Waktu aksesnya yang cukup cepat, jika record yang dicari langsung berada pada angka hash lokasi penyimpanannya.
-2. Hashing relatif lebih cepat
-3. Kecepatan dalam insertions, deletions, maupun searching relatif sama
-4. Cocok untuk merepresentasikan data dengan frekuensi insert, delete
-dan search yang tinggi
+3. Kelebihan Hash Table
+- Waktu aksesnya yang cukup cepat, jika record yang dicari langsung berada pada angka hash lokasi penyimpanannya.
+- Hashing relatif lebih cepat
+- Kecepatan dalam insertions, deletions, maupun searching relatif sama
+- Cocok untuk merepresentasikan data dengan frekuensi insert, delete dan search yang tinggi
 
-## KEKURANGAN HASH TABLE
-1. Sering sekali ditemukan hash table yang recordrecordnya mempunyai angka hash yang sama (bertabrakan).
-2. Sulit (tidak efficient) untuk mencetak seluruh elemen pada hash table
-3. Tidak efficient untuk mencari elemen minimum or maximum
+4. Kekurangan Hash Table
+- Sering sekali ditemukan hash table yang recordrecordnya mempunyai angka hash yang sama (bertabrakan).
+- Sulit (tidak efficient) untuk mencetak seluruh elemen pada hash table
+- Tidak efficient untuk mencari elemen minimum or maximum
 
 ## Guided 
 
@@ -285,5 +284,5 @@ c. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari d
 
 
 ## Referensi
-[1]<br/>
+[1] Annisa Puspa Kirana, S.Kom, M.Kom, 2019, "TABEL HASH (HASH TABLE)". https://www.scribd.com/document/407460664/TABEL-HASH-HASH-TABLE-pdf<br/>
 [2] 
