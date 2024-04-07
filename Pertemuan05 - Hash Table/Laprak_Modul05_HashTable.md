@@ -15,6 +15,7 @@ Tabel hashing memiliki beberapa kendala, yaitu tabrakan. Tabrakan terjadi ketika
 
 <p>
 Dalam penerapannya, terdapat dua metode yang sering digunakan untuk menangani kolisi saat menggunakan tabel hash :<br/>
+
 1. Open Hashing (Chaining)
 Open Hashing (Chaining) adalah strategi untuk mencegah tabrakan. Dengan hashing berantai, setiap slot dalam tabel hash berfungsi sebagai simpul utama untuk data, yang akan dimasukkan setelahnya. Konsekuensinya, jika node kosong, data ditambahkan ke root node. Sebaliknya, jika data sudah ada, data yang masuk dilampirkan atau disisipkan setelah node kepala yang ada.<br/>
 
