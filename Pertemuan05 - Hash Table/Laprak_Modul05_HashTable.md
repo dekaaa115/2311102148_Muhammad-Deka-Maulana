@@ -246,8 +246,8 @@ Deskripsi Program Guided 2
 memiliki NIM dan nilai. Implementasikan fungsi untuk menambahkan data baru,
 menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan
 nilai. Dengan ketentuan :<br/>
-a. Setiap mahasiswa memiliki NIM dan nilai.
-b. Program memiliki tampilan pilihan menu berisi poin C.
+a. Setiap mahasiswa memiliki NIM dan nilai.<br/>
+b. Program memiliki tampilan pilihan menu berisi poin C.<br/>
 c. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80 – 90).
 
 
