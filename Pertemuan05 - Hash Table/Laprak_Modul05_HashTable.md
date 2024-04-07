@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-1. Pengenalan Hash Table
+1. Pengenalan Hash Table<br/>
 Hash Table adalah sebuah struktur data yang terdiri atas sebuah tabel dan fungsi yang bertujuan untuk memetakan nilai kunci yang unik untuk setiap record (baris) menjadi angka (hash) lokasi record tersebut dalam sebuah tabel.<br/>
 Menyimpan data pada memori ke dalam baris-baris dan kolom-kolom sehingga membentuk table yang diakses dengan cepat
 ![Screenshot Dasar Teori Hash Table](Dasar-Teori_Hash-Table_Modul5_Deka.png)
