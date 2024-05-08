@@ -8,7 +8,7 @@ Stack adalah suatu tumpukan dari benda. Konsep utamanya adalah LIFO (Last In Fir
 
 Penggunaan stack dalam pemrograman sangat luas, mulai dari menyelesaikan ekspresi matematika dalam notasi postfix hingga mengelola memori dalam sistem komputer. Dengan prinsip LIFO (Last In, First Out), stack membantu mempertahankan urutan operasi atau data yang penting dan memudahkan akses ke data terbaru yang dimasukkan. Dalam struktur data stack, ada dua situasi yang perlu dihindari, yaitu underflow dan overflow.
 - Stack underflow terjadi saat mencoba mengakses atau menghapus elemen data dari stack yang kosong.
-- Stack overflow terjadi saat ruang memori yang dialokasikan untuk stack sudah penuh tetapi masih ada upaya untuk menambahkan elemen baru.
+- Stack overflow terjadi saat ruang memori yang dialokasikan untuk stack sudah penuh tetapi masih ada upaya untuk menambahkan elemen baru.</br>
 ![Ilustrasi Stack](ilustrasi_stack_deka.jpg)
 
 ## Guided 
