@@ -12,6 +12,46 @@ Penggunaan stack dalam pemrograman sangat luas, mulai dari menyelesaikan ekspres
 - Stack overflow terjadi saat ruang memori yang dialokasikan untuk stack sudah penuh tetapi masih ada upaya untuk menambahkan elemen baru.</br>
 ![Ilustrasi Stack](ilustrasi_stack_deka.jpg)
 
+### 2. Operasi Dasar Pada Stack
+
+a. Operasi Create 
+Merupakan operator yang berfungsi untuk membuat sebuah stack kosong
+
+b. Operasi IsEmpty
+Merupakan operator yang berfungsi untuk menentukan apakah suatu stack merupakan stack kosong. Tanda bahwa sebuah stack kosong adalah Top bernilai kurang dari nol (-1) 
+
+c. Operasi IsFull
+Merupakan operator yang digunakan untuk memeriksa apakah stack yang ada sudah penuh. Stack akan penuh jika puncak stack terletak tepat dibawah jumlah maksimum yang dapat ditampung stack (Top = MAX_STACK-1).
+
+d. Operasi Push
+Merupakan operator yang berfungsi untuk menambahkan satu elemen ke dalam stack dan tidak dapat dilakukan jika stack dalam keadaan penuh. 
+
+e. Operasi Pop
+Merupakan operator yang berfungsi untuk mengeluarkan satu elemen teratas dari dalam stack dengan syarat stack tidak dalam kondisi kosong.
+
+f. Operasi Clear
+Merupakan fungsi yang digunakan untuk mengosongkan stack dengan cara mengeset Top dengan - 1. Jika Top bernilai kurang dari nol maka stack dianggap kosong.
+
+g. Operasi Retrieve
+Merupakan fungsi yang digunakan untuk melihat nilai yang berada pada posisi tumpukan teratas.
+
+### 3. Kelebihan dan Kekurangan Stack
+
+1. Kelebihan Stack 
+- membantu mengelola data dengan metode LIFO 
+- secara otomatis membersihkan objek 
+- tidak mudah rusak 
+- ukuran variabel tidak dapat diubah 
+- mengontrol memori secara mandiri 
+
+2. Kekurangan Stack 
+- memori stack sangat terbatas 
+- ada kemungkinan stack akan meluap atau overflow jika terlalu 
+banyak objek
+- tidak memungkinkan akses acak, karena harus mengeluarkan 
+tumpukan paling atas terlebih dahulu untuk mengakses tumpukan 
+paling bawah.
+
 ## Guided 
 
 ### 1. Guided
@@ -188,3 +228,5 @@ Kalimat : Telkom Purwokerto
 ## Kesimpulan
 
 ## Referensi
+[1] Ahmad Ghiyas Ahyar, et al., 2021, "JURNAL PEMBELAJARAN ARRAY, LINKED LIST, STACK, DAN QUEUE".
+[2] Muh. Haidar, 2020, "MAKALAH STACK DAN QUEUE".
