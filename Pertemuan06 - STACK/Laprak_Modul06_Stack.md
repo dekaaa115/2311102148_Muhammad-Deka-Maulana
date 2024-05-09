@@ -377,4 +377,4 @@ Dalam praktikum ini, para praktikan diminta untuk memahami konsep stack dalam ba
 
 ## Referensi
 [1] Ahmad Ghiyas Ahyar, et al., 2021, "JURNAL PEMBELAJARAN ARRAY, LINKED LIST, STACK, DAN QUEUE".
-[2] Muh. Haidar, 2020, "MAKALAH STACK DAN QUEUE".
+<br>[2] Muh. Haidar, 2020, "MAKALAH STACK DAN QUEUE".
