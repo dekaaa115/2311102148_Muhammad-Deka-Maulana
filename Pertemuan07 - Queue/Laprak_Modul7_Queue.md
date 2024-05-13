@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 6 - Stack</h1>
+# <h1 align="center">Laporan Praktikum Modul 7 - Queue</h1>
 <p align="center">Muhammad Deka Maulana - 2311102148</p>
 
 ## Dasar Teori
