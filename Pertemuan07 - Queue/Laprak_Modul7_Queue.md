@@ -340,6 +340,7 @@ Di awal program, dideklarasikan sebuah struct node yang berisi variabel `nama_14
 - `int HitungAntrian_148();` untuk menghitung jumlah elemen dalam antrian.
 - `void HapusAntrian_148();` untuk menghapus semua elemen dalam antrian.
 - `void LihatAntrian_148();` untuk menampilkan semua elemen dalam antrian.
+
 Dalam fungsi `int main()`, dilakukan beberapa operasi terkait queue, seperti menambahkan tiga nama (Alya, Kiki, Artika) ke dalam antrian menggunakan prosedur `TambahData_148()`, menampilkan antrian setelah penambahan menggunakan `LihatAntrian_148()`, menghapus elemen pertama dari antrian dengan `KurangiAntrian_148()`, menampilkan antrian setelah pengurangan dengan `LihatAntrian_148()`, menghapus seluruh antrian dengan `HapusAntrian_148()`, dan menampilkan antrian setelah penghapusan menggunakan `LihatAntrian_148()`.
 
 #### Output:
