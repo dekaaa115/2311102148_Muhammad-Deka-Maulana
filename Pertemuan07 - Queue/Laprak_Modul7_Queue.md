@@ -480,6 +480,7 @@ Program di atas adalah implementasi sederhana dari struktur data antrian (queue)
 - HitungAntrian_148() : Fungsi ini menghitung jumlah total data dalam antrian pada saat itu.
 - HapusAntrian_148() : Fungsi ini digunakan untuk menghapus semua data dari antrian dengan melepaskan semua node dan mengembalikan `front` dan `back` ke NULL.
 - LihatAntrian_148() : Fungsi ini digunakan untuk menampilkan semua data yang ada dalam antrian pada saat itu.
+
 Program ini memberikan dasar implementasi antrian yang dapat digunakan sebagai landasan untuk pengembangan lebih lanjut dalam membangun aplikasi yang membutuhkan struktur data antrian.
 
 #### Output:
