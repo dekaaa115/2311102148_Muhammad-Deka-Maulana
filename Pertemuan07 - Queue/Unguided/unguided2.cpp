@@ -1,10 +1,11 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
 // Definisi struct node
 struct node {
     string nama_148;
+    string nim_148;
     node *next;
 };
 
@@ -23,9 +24,10 @@ bool isEmpty_148() {
 }
 
 // Tambah data ke antrian
-void TambahData_148(string name_148) {
+void TambahData_148(string name_148, string nim_148) {
     node *baru = new node;
     baru->nama_148 = name_148;
+    baru->nim_148 = nim_148;
     baru->next = NULL;
     if (isEmpty_148()) {
         front = back = baru;
@@ -80,7 +82,7 @@ void LihatAntrian_148() {
         node *bantu = front;
         int NomorAntrian_148 = 1;
         while (bantu != NULL) {
-            cout << NomorAntrian_148 << ". " << bantu->nama_148 << endl;
+            cout << NomorAntrian_148 << ". Nama: " << bantu->nama_148 << ", NIM: " << bantu->nim_148 << endl;
             bantu = bantu->next;
             NomorAntrian_148++;
         }
@@ -89,10 +91,14 @@ void LihatAntrian_148() {
 }
 
 int main() {
-    // Tambah 3 data nama ke antrian
-    TambahData_148("Alya");
-    TambahData_148("Kiki");
-    TambahData_148("Artika");
+    Inisialisasi_148();
+    
+    // Tambah 3 data mahasiswa ke antrian
+    TambahData_148("Alya", "2311102001");
+    TambahData_148("Kiki", "2311102002");
+    TambahData_148("Artika", "2311102003");
+    TambahData_148("Muhammad","2311102148");
+    TambahData_148("Deka","2311102148");
 
     // Tampilkan data yang sudah ditambah
     LihatAntrian_148();
