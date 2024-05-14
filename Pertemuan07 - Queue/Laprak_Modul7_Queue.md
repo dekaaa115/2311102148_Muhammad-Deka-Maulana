@@ -3,10 +3,7 @@
 
 ## Dasar Teori
 
-
-## Guided 
-
-# Queue
+### Queue
 
 ### A. Pengertian Queue
 Queue (antrian) adalah suatu jenis struktur data yang dapat diproses dengan sifat FIFO (First In First Out), dimana elemen yang pertama kali masuk ke antrian akan keluar pertama kalinya. Ada dua jenis operasi yang bias dilakukan di antrian : enqueue (memasukkan elemen baru ke dalam elemen) dan dequeue (adalah mengeluarkan satu elemen dari suatu antrian). Antrian dapat dibuat dengan menggunakan : Liniear Array dan Circular Array.
@@ -88,6 +85,8 @@ void enqueue(char X, Queue* q) {
 ### C. Perbedaan Implementasi Queue Linked List dengan Queue Array
 ![Perbedaan LinkedList dan Queue Array](perbedaan_linkedlistdanqueue(1).png)
 ![Perbedaan LinkedList dan Queue Array](perbedaan_linkedlistdanqueue(2).png)
+
+## Guided 
 
 ### 1. Guided
 
