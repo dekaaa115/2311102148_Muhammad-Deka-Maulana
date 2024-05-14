@@ -209,6 +209,7 @@ Kode di atas adalah program latihan sederhana untuk antrian (queue). Implementas
 - `int Count()`: Menghitung jumlah elemen dalam antrian.
 - `void ClearQueue()`: Menghapus seluruh elemen dalam antrian.
 - `void ViewQueue()`: Menampilkan seluruh elemen dalam antrian.
+
 Pada `int main()`, dilakukan beberapa operasi terkait antrian: menambahkan 3 nama ke dalam antrian (`Alya`, `Kiki`, `Artika`) menggunakan prosedur `TambahData()`, menampilkan antrian setelah penambahan data menggunakan `ViewQueue()`, mengurangi antrian dengan `KurangAntrian()`, menampilkan antrian setelah pengurangan menggunakan `ViewQueue()`, menghapus seluruh antrian dengan `ClearQueue()`, dan menampilkan antrian setelah penghapusan menggunakan `ViewQueue()`.
 
 ## Unguided 
