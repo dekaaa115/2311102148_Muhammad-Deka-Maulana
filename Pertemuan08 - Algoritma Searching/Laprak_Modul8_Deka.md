@@ -19,10 +19,10 @@ Algoritma searching digunakan pada berbagai jenis aplikasi, seperti mesin pencar
 
 SequentialSearch adalah cara untuk  pencarian data dalam array 1 dimensi.  Data yang akan dicari nanti akan ditelusuri dalam semua elemen-elemen array  dari awal sampai akhir, dan data yang dicari tersebut tidak perlu diurutkan terlebih dahulu. Terdapat 2 kemungkinan yang akan terjadi dalam waktu pencarian data SequentialSearch, diantaranya yaitu :
 
-a.	Best Case
+a.	Best Case</br>
 Best case / kemungkinan terbaik akan terjadi apabila data yang dicari terletak pada index array yang paling depan, sehingga waktu yang dibutuhkan untuk mencari data sedikit. 
 
-b.	Worse Case
+b.	Worse Case</br>
 Worse case / kemungkinan terburuk akan terjadi apabila data yang dicari terletak pada index array yang paling akhir, sehingga waktu yang dibutuhkan untuk mencari data akan sangat lama. Untuk meningkatkan efisiensi pencarian data pada SequentialSearch dapat dilakukan dengan cara menghentikan looping dengan menggunakan BREAK apabila data yang dicari sudah ketemu.
 
 ![Gambar Sequential Search](gambar_sequentialsearch_deka.jpg)
