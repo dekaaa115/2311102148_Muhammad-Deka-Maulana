@@ -157,7 +157,7 @@ int main(){
 }
 ```
 
-Program di atas dibuat dengan menggunakan bahasa pemrograman C++ dan bertujuan untuk mencari data tertentu dalam sebuah array menggunakan metode Binary Search. Berikut adalah deskripsi detail dari program tersebut :
+Program di atas dibuat dengan menggunakan bahasa pemrograman C++ dan bertujuan untuk mencari data tertentu dalam sebuah array menggunakan metode Binary Search.
 
 Program ini mengurutkan array `dataArray` menggunakan algoritma Selection Sort sebelum melakukan pencarian. Setelah pengurutan, nilai yang dicari akan dicari menggunakan algoritma Binary Search. Jika nilai tersebut ditemukan, program akan menampilkan indeks tempat nilai tersebut ditemukan; jika tidak, pesan bahwa nilai tidak ditemukan akan ditampilkan. Sebelumnya, program akan menampilkan data awal yang belum diurutkan dan meminta input dari pengguna untuk nilai yang dicari. Setelah itu, program akan menampilkan data yang telah diurutkan dan melakukan pencarian menggunakan Binary Search. Terakhir, program akan menahan tampilan layar sebelum selesai. Program ini merupakan contoh bagus tentang bagaimana algoritma yang berbeda dapat digunakan bersama untuk menyelesaikan masalah tertentu.
 
