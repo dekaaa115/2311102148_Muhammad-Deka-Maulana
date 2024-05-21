@@ -17,7 +17,7 @@ Algoritma searching digunakan pada berbagai jenis aplikasi, seperti mesin pencar
 
 ### 1. Sequential Search
 
-    SequentialSearch adalah cara untuk  pencarian data dalam array 1 dimensi.  Data yang akan dicari nanti akan ditelusuri dalam semua elemen-elemen array  dari awal sampai akhir, dan data yang dicari tersebut tidak perlu diurutkan terlebih dahulu. Terdapat 2 kemungkinan yang akan terjadi dalam waktu pencarian data SequentialSearch, diantaranya yaitu :
+SequentialSearch adalah cara untuk  pencarian data dalam array 1 dimensi.  Data yang akan dicari nanti akan ditelusuri dalam semua elemen-elemen array  dari awal sampai akhir, dan data yang dicari tersebut tidak perlu diurutkan terlebih dahulu. Terdapat 2 kemungkinan yang akan terjadi dalam waktu pencarian data SequentialSearch, diantaranya yaitu :
 
 a.	Best Case
 Best case / kemungkinan terbaik akan terjadi apabila data yang dicari terletak pada index array yang paling depan, sehingga waktu yang dibutuhkan untuk mencari data sedikit. 
@@ -29,7 +29,7 @@ Worse case / kemungkinan terburuk akan terjadi apabila data yang dicari terletak
 
 ### 2. Binary Search
 
-    Binary Search adalah cara untuk pencarian data pada array yang sudah terurut. Salah satu syarat dalam Binary Search adalah data sudah dalam keadaan terurut. Dengan kata lain, apabila data belum dalam keadaan terurut, pencarian Binary tidak dapat dilakukan. Binary Search ini dilakukan untuk :
+Binary Search adalah cara untuk pencarian data pada array yang sudah terurut. Salah satu syarat dalam Binary Search adalah data sudah dalam keadaan terurut. Dengan kata lain, apabila data belum dalam keadaan terurut, pencarian Binary tidak dapat dilakukan. Binary Search ini dilakukan untuk :
 
 - Memperkecil jumlah operasi perbandingan yang harus dilakukan antara data yang dicari dengan data yang ada di dalam tabel, khususnya untuk jumlah data yang sangat besar ukurannya.
 - Beban komputasi lebih kecil karena pencarian dilakukan dari depan, belakang, dan tengah.
