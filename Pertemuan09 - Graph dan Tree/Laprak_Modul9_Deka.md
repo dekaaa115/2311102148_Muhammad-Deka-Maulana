@@ -8,6 +8,7 @@
 ### Graph
 Graph adalah cara mewakili hubungan yang ada di antara pasangan objek. Graph adalah seperangkat objek, yang disebut simpul (vertex), bersama dengan kumpulan koneksi berpasangan di antara mereka, yang disebut edge. Graph memiliki aplikasi dalam pemodelan banyak domain, termasuk pemetaan, transportasi, jaringan komputer, dan teknik listrik.
 Graph G adalah kumpulan V dari simpul dan kumpulan E dari pasangan simpul dari V, yang disebut edge. Dengan demikian, graph adalah cara untuk mewakili koneksi atau hubungan antara pasangan objek dari beberapa set V. Secara kebetulan, beberapa buku menggunakan terminologi berbeda untuk graph dan merujuk pada apa yang kita sebut vertex sebagai node dan yang kita sebut edge sebagai arc.
+
 ![Screenshot Contoh Graph](contoh_graph.png)
 
 ### Jenis-Jenis Graph
