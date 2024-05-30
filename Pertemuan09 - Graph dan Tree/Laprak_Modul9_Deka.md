@@ -1005,10 +1005,12 @@ Dalam fungsi utama main, dibuat sebuah menu dengan 12 pilihan untuk mengelola po
 
 ## Kesimpulan
 
-Jadi.....
+Pemahaman tentang struktur data tree dan graph sangat penting dalam pengembangan perangkat lunak dan pemrosesan informasi. Tree memberikan kerangka kerja hierarkis untuk menyusun data dengan baik, sementara graph memberikan representasi lebih luas tentang hubungan antara objek. Dengan pengetahuan tentang operasi dasar seperti penyisipan, penghapusan, dan penelusuran, serta jenis-jenis penelusuran seperti inorder, postorder, dan preorder, pengembang dapat mengimplementasikan dan memanipulasi struktur data tree dan graph secara efektif dalam pemrograman.
+
+Dalam pengembangan perangkat lunak, pemahaman tentang tree dan graph sangat diperlukan untuk merancang algoritma yang efisien dan mengatasi berbagai tantangan dalam pemrosesan data. Kemampuan untuk menerapkan konsep-konsep seperti representasi graf dengan matriks dan linked list, serta operasi dasar pada tree, memungkinkan pengembang untuk menghadapi masalah kompleks dan membangun solusi yang efisien. Pemahaman yang baik tentang materi ini memberikan dasar yang kokoh bagi pengembang untuk menjelajahi berbagai aplikasi, mulai dari analisis jaringan hingga pengembangan algoritma pencarian dan pengurutan data. Dengan memanfaatkan konsep-konsep ini secara efektif, pengembang dapat menciptakan solusi yang inovatif dan terukur dalam pemrosesan informasi modern.
 
 ## Referensi
 [1] Muhammad Althariq Fairuz, 2023-2024, "Aplikasi Undirected Graph untuk Hubungan
 Pertemanan pada Facebook"</br>
 [2] Prio Handoko, S.Kom., M.T.I., 2020, "STRUKTUR DATA & ALGORITMA-GRAPH"<br/>
-[3] 
+[3] Muhammad Nugraha, 2021. "Dasar Pemrograman Dengan C++, Materi Paling Dasar untuk Menjadi Programmer Berbagai Platform".
